@@ -17,15 +17,15 @@
 
     ```bash
     # build container dotnettest.consoleapp
-    ./DotNetTest.ConsoleApp.BuildDocker.sh
+    sudo ./DotNetTest.ConsoleApp.BuildDocker.sh
     # runs the container dotnettest.consoleapp
-    ./DotNetTest.ConsoleApp.RunDocker.sh
+    sudo ./DotNetTest.ConsoleApp.RunDocker.sh
     ```
 
 To view the current output type
 
 ```bash
-docker logs dotnettest.consoleapp
+sudo docker logs dotnettest.consoleapp
 ```
 
 [docker]: https://www.docker.com
